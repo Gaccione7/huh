@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-# Front-End Web Development
+# Front-End Web Development 1/17
 
 Welcome to FEWD! This repo contains course notes and some important information you'll need for the course.
 
