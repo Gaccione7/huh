@@ -20,7 +20,7 @@ Welcome to FEWD! This repo contains course notes and some important information 
 
 | Role                   | Name               | Slack       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Instructor** | Donovan Taitt | @donovan | donovan.taitt@gmail.com | [DTaitt](https://github.com/DTaitt) |
+| **Instructor** | Donovan Taitt | @donovan | donovan.w.taitt@gmail.com | [DTaitt](https://github.com/DTaitt) |
 | **Instructor** | J Silverstein | @j | j.silverstein@generalassemb.ly | [jlr7245](https://github.com/jlr7245) |
 
 
