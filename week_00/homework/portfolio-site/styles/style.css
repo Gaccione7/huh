@@ -1,0 +1,319 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Old+Standard+TT';
+
+/* fonts and setup */
+
+body {
+  line-height: 1.5em;
+  margin-bottom: 100px;
+  background-color: #001c30;
+}
+
+h1 {
+  color: #ffba00;
+  font-size: 200px;
+  line-height: 150px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  padding-left: 35px;
+  line-height: 1.5em;
+}
+
+.dkb {
+  color: #001c30;
+}
+
+.seag {
+  color: #adf0a1;
+}
+
+.ylw {
+  color: #ffba00;
+}
+
+.ltg {
+  color: #eee;
+}
+
+.dkg {
+  color: #222;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.fco {
+  font-family: 'fjalla one', sans-serif;
+}
+
+.ost {
+  font-family: 'old standard tt', serif;
+}
+
+li .ost {
+  font-size: 0.8em;
+  line-height: 0.6em;
+}
+
+/* base container and top information */
+
+.container {
+  background-color: #001c30;
+  padding: 50px 0;
+  width: 80%;
+  margin: 0px auto;
+  line-height: 1.5em;
+}
+
+.pgtop {
+  padding-top: 200px;
+}
+
+/* image */
+
+#self {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+#self img {
+  max-width: 200px;
+  border: 20px solid #adf0a1;
+}
+
+header:hover #self {
+  opacity: 1;
+}
+
+/* row 2 */
+
+.thirds {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.thirds .inr {
+  float: left;
+  width: 29%;
+  padding: 0 2%;
+  display: block;
+}
+
+.thirds .inr p {
+  font-size: 24px;
+  margin-top: 50px;
+  line-height: 1.5em;
+}
+
+.thirds .inr h3 {
+  color: #eee;
+  font-family: 'fjalla one', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  border-bottom: 8px solid #adf0a1;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+.thirds .inr ul li {
+  font-size: 24px;
+  font-family: 'fjalla one', sans-serif;
+  color: #ffba00;
+  line-height: 1.5em;
+}
+
+hr {
+  width: 80%;
+  margin: 100px auto;
+  height: 15px;
+  background-color: #eee;
+  border: 0;
+}
+
+/* project setup */
+.project {
+  width: 80%;
+  margin: 0 auto;
+  height: 180px;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.over {
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0.5;
+  -webkit-transition: opacity 0.25s ease;
+  height: 100%;
+}
+
+.inr {
+  padding: 25px 50px;
+  vertical-align: center;
+}
+
+.project:hover .over {
+  opacity: 1;
+}
+
+.projecttitle {
+  font-family: 'old standard tt';
+  color: white;
+  font-size: 45px;
+  display: inline-block;
+  float: left;
+  border-bottom: 5px solid #adf0a1;
+  line-height: 1.5em;
+}
+
+.projectdate {
+  float: right;
+  font-family: 'fjalla one';
+  color: #ffba00;
+  line-height: 65px;
+}
+
+/* project background */
+.prsp {
+  background-image: url('../images/pj-psp.jpg');
+}
+
+.agency {
+  background-image: url('../images/pj-agency.jpg');
+}
+
+/* bottom */
+
+footer{
+  position: fixed;
+  background-color: #adf0a1;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+footer i {
+  color: #222;
+}
+
+.btm1,
+.btm2,
+.btm3 {
+  display: inline;
+  font-family: 'fjalla one', sans-serif;
+}
+
+.btm2,
+.btm3 {
+  margin-left: 100px;
+}
+
+.btmlist,
+.btmlist li {
+  display: inline-block;
+}
+
+.btmlist {
+  padding: 0 0 0 5px;
+}
+
+.btmlist li {
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-family: 'fjalla one', sans-serif;
+  letter-spacing: 1px;
+}
+
+.btmlist li a {
+  color: #222;
+}
+.btmlist li a:hover {
+  color: #001c30;
+}
+
+.btmct {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* fixing the border */
+headerbr,
+#left,
+#right {
+  background: #adf0a1;
+  position: fixed;
+  z-index: 500;
+}
+
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 20px;
+}
+
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+headerbr {
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+headerbr {
+  top: 0;
+}
+
+@media (max-width: 1000px) {
+  .inr {
+    width: 100% !important;
+  }
+
+  #self {
+    display: none;
+  }
+
+  .btm1,
+  .btm2,
+  .btm3,
+  .btmlist,
+  .btmlist li {
+    display: block;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .projectdate {
+    float: none;
+    display: block;
+  }
+  .projecttitle {
+    display: block;
+    font-size: 22px;
+    float: none;
+    width: 80%;
+  }
+  .project {
+    height: auto;
+  }
+  .inr {
+    padding: 25px;
+  }
+}
